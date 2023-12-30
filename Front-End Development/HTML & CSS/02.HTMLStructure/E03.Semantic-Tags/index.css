@@ -1,0 +1,11 @@
+.headerAndFooter {
+    padding: 5px 15px;
+    background-color: #f2dcdd;
+    width: 480px;
+}
+
+.main {
+    padding: 15px;
+    background-color: #f9f7cf;
+    width: 480px;
+}
