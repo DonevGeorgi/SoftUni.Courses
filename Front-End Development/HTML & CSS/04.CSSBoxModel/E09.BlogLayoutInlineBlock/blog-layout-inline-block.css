@@ -1,0 +1,27 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color:  rgb(238,238,238);
+    color: rgb(51,51,51);
+    margin: 20px 30px; 
+}
+
+img {
+    max-height: 800px;
+    max-width: 500px;
+}
+
+header,
+section,
+footer {
+    max-width: 700px;
+}
+
+aside {
+    float: right;
+	position: relative;
+	right: 350px;
+	width: 300px;
+}
