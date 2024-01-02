@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 4em;
+    padding: 2em;
+}
+
+h1 {
+    padding-top: 0.5em;
+    padding-bottom: 0.3em;
+    font-weight: lighter;
+}
+
+p {
+    padding-bottom: 1em;
+    font-weight: 300;
+    line-height: 1.2em;
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    border-bottom: 2px solid rgb(0,0,0);
+}
+
+header nav {
+    margin-left: auto; 
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav li {
+    display: block;
+    padding: 0.3em;
+}
+
+header nav ul li a {
+    color: rgb(0, 153, 0);
+}

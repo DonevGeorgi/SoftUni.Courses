@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div, section {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    padding: 2em;
+}
+
+.container {
+    max-width: 65vw;
+    padding: 1em;
+    align-items: stretch;
+}
+
+.week {
+    flex-wrap: wrap;
+}
+
+span {
+    display: block;
+    padding: 0.5em;
+    flex-grow: 1;
+}
+
+.week span:nth-child(1),
+.week span:nth-child(9) {
+    flex-basis: 100%;
+}
+
+.week span:nth-child(7){
+    order: 1;
+}
+
+.week span:nth-child(8){
+    order: 2;
+}

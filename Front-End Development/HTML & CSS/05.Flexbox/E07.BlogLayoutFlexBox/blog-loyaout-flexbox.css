@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 3em;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+}
+
+header p {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 26px;
+    padding: 0.8em 0;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-size: 22px;
+    padding-bottom: 0.8em;
+    padding-top: 1.4em;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.page p {
+    margin-bottom: 1em;
+}
+
+.page > header {
+    border-bottom: 2px solid black;
+    flex-basis: 100%;
+}
+
+.page > main {
+    flex: 1 1 30em;
+}
+
+.page > aside {
+    flex: 1 1 10em;
+}
+
+body {
+    background-color: rgb(238,238,238);
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+img {
+    background-color: rgb(255,255,255);
+    border: 0.3em solid black;
+    padding: 0.5em;
+    box-shadow: 0 0 0.5em 0.1em rgba(0,0,0,0.4);
+    margin-right: 1.5em;
+    margin-bottom: 1em;
+    
+}
+
+a {
+    color: rgb(0 ,153, 0);
+}
+
+aside ul {
+    padding-left: 2em;
+    padding-bottom: 1em;
+}
+
+blockquote {
+    border-left: 1px solid grey;
+    font-style: italic;
+    margin: 0 0 1em 1em;
+    float: right;
+    padding: 1em;
+    width: 40%;
+    opacity: 0.5;
+}
+
+.author {
+    float: right;
+}
