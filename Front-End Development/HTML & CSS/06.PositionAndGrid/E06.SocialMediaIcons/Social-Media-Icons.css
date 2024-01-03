@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    padding: 13em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5em;
+    align-items: baseline;
+    list-style: none;
+    position: absolute;
+}
+
+li {
+    display: inline-block;
+    height: 2em;
+    width: 2em;
+}
+
+svg {
+    position: relative;
+    top: 25%;
+}
+
+a {
+    overflow: grid;
+    width: 1.5em;
+    height: 1.5em;
+    padding: 2em;
+    background-color: lightgray;
+    border-radius: 50%;
+    place-items: center;
+    text-decoration: none;
+    line-height: 1;
+}
+
+ul li:nth-child(1) svg:hover {
+    transition: 0.5s ease;
+    fill: blue;
+}
+
+ul li:nth-child(2) svg:hover {
+    transition: 0.5s ease;
+    fill: rgb(89, 190, 230);
+}
+
+ul li:nth-child(3) svg:hover {
+    transition: 0.5s ease;
+    fill: red;
+}
+
+ul li:nth-child(4) svg:hover {
+    transition: 0.5s ease;
+    fill: rgb(13, 130, 177);
+}
+
+ul li:nth-child(5) svg:hover {
+    transition: 0.5s ease;
+    fill: rgb(13, 130, 177);
+}
+

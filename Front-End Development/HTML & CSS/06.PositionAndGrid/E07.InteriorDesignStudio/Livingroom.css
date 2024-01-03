@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1em;
+}
+
+h1 {
+    padding: 1.0em;
+    position: absolute;
+    font-size: 5em;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    color: antiquewhite;
+    text-shadow: 1px 1px 20px black;
+}
+
+img {
+    height: 100vh;
+    width: 100vw;
+}
