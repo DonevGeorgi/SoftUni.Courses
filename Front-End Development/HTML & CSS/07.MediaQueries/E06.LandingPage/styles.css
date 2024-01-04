@@ -1,0 +1,85 @@
+/* reset */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 20px/1.2 Ariel, serif;
+    text-align: center;
+}
+
+h1 { font-size: 3em;}
+h2 { font-size: 2.2em;}
+h3 { font-size: 1.8em;}
+h4 { font-size: 1.4em;}
+h5 { font-size: 1.2em;}
+h6 { font-size: 1em;}
+
+
+section {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+/* header styles */
+
+header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.header-title h1 {
+    color: purple;
+}
+
+.header-title p {
+    text-transform: uppercase;
+    letter-spacing: -0.4px;
+}
+
+header ul {
+    display: flex;
+    gap: 3em;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+/* first section */
+
+.commercial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4em;
+}
+
+.commercial svg {
+    width: 170px;
+    height: 170px;
+}
+
+.text-commercial-section {
+    width: 30%;
+    text-align: justify;
+}
+
+.text-commercial-section p {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.text-commercial-section a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 2px;
+    padding: 6px;
+}
+
+/* Out team */

@@ -1,0 +1,19 @@
+.page {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2em;
+	padding: 2em;
+}
+
+.page > header {
+	flex-basis: 100%;
+	border-bottom: 2px solid #000;
+}
+
+.page > main {
+	flex: 1 1 35rem;
+}
+
+.page > aside {
+	flex: 1 1 15rem;
+}
