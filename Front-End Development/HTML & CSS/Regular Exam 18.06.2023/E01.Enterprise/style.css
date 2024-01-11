@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font: 16px/1.5 Inter, serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  rgb(217,217,217);
+}
+
+.container {
+    max-width: 1900px;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+
+
+.card-holder {
+    display: flex;
+    gap: 2em;
+}
+
+.card {
+    flex: 1 0 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(217,217,217);
+    box-shadow: 6px 6px 16px 1px rgb(146, 145, 145);;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 2em;
+}
+
+.sub-title {
+    font-weight: 600;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+.card p {
+    line-height: 1em;
+}
+
+.person-posted {
+    border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.prfile {
+    display:flex;
+    gap: 1em;
+}
+
+
+.card img{
+    display: block;
+    width: 100%;
+    height: 50%;
+}
+
+.person-posted .profile img{
+    display: block;
+    border-radius: 50%;
+    padding: 0;
+    width: 2em;
+    height: 2em;
+}

@@ -1,0 +1,231 @@
+svg {
+    width: 20px;
+    height: 20px;
+}
+
+/* header styles */
+.container {
+    max-width: 1900px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+header ul {
+    display: flex;
+    gap: 1em;
+}
+
+header ul li {
+    display: inline;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+.login-signin {
+    display: flex;
+    align-items: baseline;
+    gap: 1em;
+}
+
+.decorate-button{
+    background-color: rgb(173,226,223);
+    border: 1px solide white;
+    border-radius: 0.5em;
+    padding: 1em;
+}
+
+/* first section style */
+.first-section {
+    width: 100%;
+    height: 300px;
+    background-color:  rgb(173,226,223);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    padding: 3em;
+}
+
+.download-buttons {
+    display: flex;
+    gap: 1em;
+}
+
+.download-buttons a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: 1px solide white;
+    border-radius: 0.5em;
+    padding: 1em;
+}
+
+/* second section styles */
+.second-section {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-section .card-container {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+}
+
+.second-section .card-container .card:nth-child(2) {
+    border-left: 2px solid lightgrey;
+    border-right: 2px solid lightgrey;
+}
+
+.second-section .card-container .card {
+    flex: 1 1 30%;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+.second-section .card-container .card p {
+    max-width: 250px;
+}
+
+/* third section style */
+.third-section {
+    background-color: rgb(173,226,223);
+}
+
+.third-section-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.third-section img {
+    border: 1px solid grey;
+    border-style: dotted;
+    height: 500px;
+}
+
+.third-section .content {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 400px;
+    padding: 2em;
+}
+
+.third-section .content span {
+    font-weight: bold;
+}
+
+.third-section .content p {
+    font-weight: 400;
+}
+
+.third-section .content a {
+    color: black;
+    text-underline-offset: 5px;
+}
+
+/* fourth section style */
+
+.fourth-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+}
+
+.fourth-section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+}
+
+.fourth-section-button a{
+    text-decoration: none;
+    padding: 0.5em 1em;
+    color: black;
+    background-color: rgb(173,226,223);
+    border: 1px solide white;
+    border-radius: 0.5em;
+}
+
+/* fifth section style */
+.fifth-section {
+    display: flex;
+}
+
+.price-tag-holders {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.contact-us {
+    width: 40%;
+}
+
+/* sixth section style */
+.sixth-section {
+    width: 100%;
+    height: 300px;
+    background-color:  rgb(173,226,223);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1em;
+    padding: 3em;
+    
+}
+
+.sixth-section-container-buttons {
+    display: flex;
+    gap: 1em;
+}
+
+.sixth-section-container-buttons a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: 1px solide white;
+    border-radius: 0.5em;
+    padding: 1em;
+}
+
+/* footer styles */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+footer .icons {
+    display: flex;
+    gap: 1em;
+}
