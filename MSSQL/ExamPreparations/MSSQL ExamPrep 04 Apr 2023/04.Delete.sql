@@ -1,0 +1,6 @@
+ALTER TABLE Clients
+DROP CONSTRAINT PK__Clients__3214EC07761709B9,FK__Clients__Address__4BAC3F29;
+
+DELETE 
+FROM Clients
+WHERE LEFT(NumberVAT,2) = 'IT';
